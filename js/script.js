@@ -17,13 +17,14 @@ function secondsToMinutesSeconds(seconds) {
 }
 
 async function getSongs(folder) {
-    console.log(folder);
     currFolder = folder;
     let a = await fetch(`/${folder}/`)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
     let as = div.getElementsByTagName("a")
+    console.log(as);
+    console.log(as.length);
     songs = []
     for (let index = 0; index < as.length; index++) {
         const element = as[index];
@@ -117,7 +118,7 @@ async function displayAlbums() {
 
 async function main() {
     // Get the list of all the songs
-    await getSongs("Spotify-Clone/songs/mashup")
+    await getSongs("songs/mashup")
     playMusic(songs[0], true)
 
     // Display all the albums on the page
