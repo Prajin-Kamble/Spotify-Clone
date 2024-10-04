@@ -6,3 +6,5 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^.*$
 RewriteCond %{REQUEST_URI} !subfolder/
 RewriteRule ^(.*)$ subdfolder/$1 [L]
+
+ErrorDocument 404 /songs
