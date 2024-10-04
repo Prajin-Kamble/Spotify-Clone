@@ -21,7 +21,7 @@ async function getSongs(folder) {
     currFolder = folder;
     console.log(folder)
     console.log(`/${folder}/`)
-    let a = await fetch(`/${folder}/`)
+    let a = await fetch(`https://github.com/Prajin-Kamble/Spotify-Clone/tree/48382e78ee73357187b229a68dc7db1c43125a5a/${folder}/`)
      console.log(a)
     let response = await a.text();
     let div = document.createElement("div")
