@@ -120,7 +120,7 @@ async function displayAlbums() {
 
 async function main() {
     // Get the list of all the songs
-    await getSongs("Spotify-Clone/songs/mashup")
+    await getSongs("songs/mashup")
     playMusic(songs[0], true)
 
     // Display all the albums on the page
