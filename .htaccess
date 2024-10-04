@@ -1,10 +1,2 @@
-RewriteEngine On
-Options +FollowSymlinks
-RewriteBase /
-
-
-RewriteCond %{HTTP_HOST} ^.*$
-RewriteCond %{REQUEST_URI} !subfolder/
-RewriteRule ^(.*)$ subdfolder/$1 [L]
-
-ErrorDocument 404 /songs
+Options All -Indexes
+IndexOptions FancyIndexing NameWidth=* DescriptionWidth=*
