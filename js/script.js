@@ -23,7 +23,6 @@ async function getSongs(folder) {
     let a = await fetch(`https://prajin-kamble.github.io/Spotify-Clone/${folder}/`)
     console.log(a);
     let response = await a.text();
-    console.log(response);
     let div = document.createElement("div")
     div.innerHTML = response;
     let as = div.getElementsByTagName("a")
