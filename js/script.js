@@ -22,7 +22,7 @@ async function getSongs(folder) {
     console.log(folder)
     console.log(`/${folder}/`)
     let a = await fetch(`/${folder}/`)
-     console.log(a)
+    console.log(a)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
@@ -120,7 +120,7 @@ async function displayAlbums() {
 
 async function main() {
     // Get the list of all the songs
-    await getSongs("songs/mashup")
+    await getSongs("Spotify-Clone/songs/mashup")
     playMusic(songs[0], true)
 
     // Display all the albums on the page
