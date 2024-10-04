@@ -21,9 +21,10 @@ async function getSongs(folder) {
     currFolder = folder;
     console.log(folder)
     console.log(`/${folder}/`)
-    let a = await fetch(`/${folder}/`)
+    let a = await fetch(`/${folder}/love Mashup.mp3`)
     console.log(a)
     let response = await a.text();
+    console.log(response);
     let div = document.createElement("div")
     div.innerHTML = response;
     let as = div.getElementsByTagName("a")
