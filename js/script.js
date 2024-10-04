@@ -20,7 +20,7 @@ async function getSongs(folder) {
     currFolder = folder;
     console.log(folder)
     console.log(`https://prajin-kamble.github.io/Spotify-Clone/${folder}/`)
-    let a = await fetch(`/${folder}/`)
+    let a = await fetch(`https://prajin-kamble.github.io/Spotify-Clone/${folder}/`)
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
