@@ -6,7 +6,7 @@ const songDetails = [
     {
       folderName: 'Mashup',
       songName: 'Love Mashup',
-      songURL: 'https://prajin-kamble.github.io/Spotify-Clone/songs/mashup/Love%20Mashup.mp3'
+      songURL: 'https://prajin-kamble.github.io/Spotify-Clone/songs/Mashup/Love%20Mashup.mp3'
     },
     {
         folderName: 'Bhim Jayanti Songs',
