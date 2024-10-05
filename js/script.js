@@ -229,7 +229,7 @@ async function displayAlbums() {
 
 async function main() {
     // Get the list of all the songs
-    await getSongs(songDetails[0].folderName);
+    await getSongs(songDetails[1].folderName);
     playMusic(songs[0], true)
 
     // Display all the albums on the page
