@@ -198,7 +198,7 @@ const playMusic = (track, pause = false) => {
 }
 
 async function displayAlbums() {
-    const allFolders = ['Bhim Jayanti Songs', 'Hindi Songs', 'Mashup', 'Old Marathi Songs', 'Old Hindi Songs'];
+    const allFolders = ['Bhim Jayanti Songs', 'Hindi Songs', 'Marathi Songs', 'Mashup', 'Old Marathi Songs', 'Old Hindi Songs'];
     let cardContainer = document.querySelector(".cardContainer");
     for (let index = 0; index < allFolders.length; index++) {
 
