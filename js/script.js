@@ -60,6 +60,11 @@ const songDetails = [
     },
     {
         folderName: 'Marathi Songs',
+        songName: 'Gau Nako Kisna',
+        songURL: 'https://prajin-kamble.github.io/Spotify-Clone/songs/Marathi%20Songs/Gau%20Nako%20Kisna.mp3'
+    },
+    {
+        folderName: 'Marathi Songs',
         songName: 'Govyachya Kinaryav',
         songURL: 'https://prajin-kamble.github.io/Spotify-Clone/songs/Marathi%20Songs/Govyachya%20Kinaryav.mp3'
     },
